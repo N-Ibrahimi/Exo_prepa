@@ -1,0 +1,10 @@
+print "How old are you?"
+age=gets.chomp.to_i 
+period=0 
+
+4.times do |n|
+    puts "in #{period +=10} years you will be\n"
+    puts "#{age+=10}"
+end 
+
+puts "ex02===================" 
